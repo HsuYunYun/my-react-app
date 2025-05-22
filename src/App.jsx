@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import Calculator from './Calculator';
 
-const viteLogo = "/vite.svg";
+const viteLogo = "/my-react-app/vite.svg";
 
 function App() {
   const [count, setCount] = useState(0)
