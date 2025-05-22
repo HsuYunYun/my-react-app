@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import Calculator from './Calculator';
+import Calculator from './Calculator'
 
 const viteLogo = "/my-react-app/vite.svg";
 
