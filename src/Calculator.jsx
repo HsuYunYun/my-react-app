@@ -41,6 +41,8 @@ export default function Calculator() {
       {/* 數字與運算符號按鈕區塊 */}
       <div>
         {[7,8,9,'/'].map(v => (
+          // 這是一個按鈕元件，顯示數字或運算符號 /
+          // 當按鈕被點擊時，會呼叫 handleClick 函式，並將 / 轉成字串傳入
           <button key={v} onClick={() => handleClick(v.toString())}>{v}</button>
         ))}
       </div>
